@@ -1,0 +1,58 @@
+.{
+    padding: 0;
+    background: 0;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/pexels-magda-ehlers-636353.jpg);
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:lightblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input, textarea{
+    width: 150px;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: inherit;
+}
+button{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
+h2{
+    color: white;
+}
+a{
+    color: white;
+    text-align: left;
+    align-self: baseline;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+
+}

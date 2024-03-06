@@ -1,0 +1,18 @@
+body{
+    background-color: beige;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/pexels-magda-ehlers-636353.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+
+}
+h2{
+    color: white;
+    text-align: center;
+}
+p{
+    line-height: 1.5;
+    color: white;
+}
+a{
+    color: white;
+}

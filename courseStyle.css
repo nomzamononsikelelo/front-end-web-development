@@ -1,0 +1,22 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet"  href="style1.css">
+        <link rel="indexsheet" href="index.html">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initials-scale=1.0">
+        <title>contact us</title>
+
+    </head>
+    <body> 
+        <h2>CONTACT US</h2>
+        <!--------link back to the home page------>
+        <a href="index.html">Go to home </a>
+        
+        <div class="container">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <small>Format: xxx-xxx-xxxx</small>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

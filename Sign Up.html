@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet"  href="style1.css">
+        <link rel="indexsheet" href="log in.html">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initials-scale=1.0">
+        <title>Sign Up</title>
+
+    </head>
+    <body> 
+        <h2>Sign Up</h2>
+        <!--------link back to the login page------>
+        <a href="log in.html">Go to login </a>
+        
+        <div class="container">
+            <form action="#" method="post">
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="name">Final Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <small>Format: xxx-xxx-xxxx</small>
+
+                <label for="message">Password:</label>
+                <input type="password" id="password" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$" required title="Password must contain at least one digit,one lowercase and one uppercase letter, and be at least 8 characters long">
+                
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$" required title="both password must match">
+
+            
+                <a href="Course.html"><button>Submit</button></a>
+            </form>
